@@ -1,0 +1,11 @@
+Package: crawlHelper
+Type: Package
+Title: Miscellaneous functions for animal movement modeling with crawl
+Version: 1.0
+Depends: sunFuncs (>= 0.1-2)
+Date: 2010-07-19
+Author: Devin S. Johnson
+Maintainer: Devin S. Johnson <devin.johnson@noaa.gov>
+Description: Calculates things like track distance, spatial use, and other movement metrics.
+License: GPL 2
+LazyLoad: yes
