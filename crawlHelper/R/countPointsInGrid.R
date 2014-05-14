@@ -1,3 +1,21 @@
+#' @title Count number of points in each cell of a spatial grid
+#' 
+#' @description 
+#' Count number of points in each cell of a spatial grid defined by controid points
+#' 
+#' @details
+#' There are no details
+#' 
+#' @param xy.points 
+#' @param xy.centers 
+#' @param template 
+#' 
+#' @return  Describe the value returned If it is a LIST, use 
+#' \item{comp1 }{Description of 'comp1'}
+#' \item{comp2 }{Description of comp2'}
+#' @author  Devin S. Johnson
+#' @export
+#' 
 countPointsInGrid <-
 function(xy.points, xy.centers=NULL, template=NULL){
 	if(is.null(xy.centers) & is.null(template)) stop("At least one of 'xy.centers' or 'template' must be specified!")

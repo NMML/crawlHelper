@@ -1,3 +1,14 @@
+#' Make a grid template from a set of pixel centers
+#' 
+#'  ~~ A concise (1-5 lines) description of what the function does. ~~
+#' 
+#'  ~~ If necessary, more details than the description above ~~
+#' 
+#' @param x  ~~Describe \code{x} here~~
+#' @return  ~Describe the value returned %% If it is a LIST, use 
+#' @author Devin S. Johnson
+#' @export
+#' 
 getPixTemplate <-
 function(x){
 	if(!(inherits(x,"SpatialPixels") | inherits(x,"SpatialGrid"))) stop("Argument must be a 'SpatialPixels' or 'SpatialGrid' object!")

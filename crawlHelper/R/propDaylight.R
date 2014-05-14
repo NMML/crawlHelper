@@ -1,3 +1,17 @@
+#' Calculate proportion of daylight with in a period of time
+#' 
+#'  ~~ A concise (1-5 lines) description of what the function does. ~~
+#' 
+#'  ~~ If necessary, more details than the description above ~~
+#' 
+#' @param xy  ~~Describe \code{xy} here~~
+#' @param dateTime.start  ~~Describe \code{dateTime.start} here~~
+#' @param dateTime.end  ~~Describe \code{dateTime.end} here~~
+#' @param delta  ~~Describe \code{delta} here~~
+#' @param solarDep  ~~Describe \code{solarDep} here~~
+#' @return  ~Describe the value returned  If it is a LIST, use 
+#' @author Devin S. Johnson
+#' 
 propDaylight <-
 function(xy, dateTime.start, dateTime.end, delta, solarDep=12){
 	if(missing(dateTime.end) & missing(delta)){

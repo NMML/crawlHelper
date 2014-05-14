@@ -1,3 +1,17 @@
+#' Calculate distance from a fixed point
+#' 
+#'  ~~ A concise (1-5 lines) description of what the function does. ~~
+#' 
+#'  ~~ If necessary, more details than the description above ~~
+#' 
+#' @param xy  ~~Describe \code{xy} here~~
+#' @param xyFix  ~~Describe \code{xyFix} here~~
+#' @param great.circle  ~~Describe \code{great.circle} here~~
+#' @param R  ~~Describe \code{R} here~~
+#' @return  ~Describe the value returned  If it is a LIST, use 
+#' @author  ~~who you are~~
+#' @export
+#' 
 netDistance <-
 function(xy, xyFix, great.circle, R=6378.137) {
   if(missing(xyFix)) xyFix <- xy[1,]

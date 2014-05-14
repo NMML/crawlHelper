@@ -1,2 +1,6 @@
 .DS_Store
 .project
+.Rproj.user
+*.Rproj
+*.tar.gz
+*.zip

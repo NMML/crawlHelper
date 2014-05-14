@@ -1,3 +1,17 @@
+#' Calculate distance between successive points
+#' 
+#'  ~~ A concise (1-5 lines) description of what the function does. ~~
+#' 
+#'  ~~ If necessary, more details than the description above ~~
+#' 
+#' @param xy  ~~Describe \code{xy} here~~
+#' @param great.circle  ~~Describe \code{great.circle} here~~
+#' @param R  ~~Describe \code{R} here~~
+#' @return  ~Describe the value returned  If it is a LIST, use 
+#' @note  ~~further notes~~
+#' @author  ~~who you are~~
+#' @export
+#' 
 pwDistance <-
 function(xy, great.circle, R=6378.137) {
   n <- nrow(xy)
