@@ -11,6 +11,8 @@
 #' @param solarDep  ~~Describe \code{solarDep} here~~
 #' @return  ~Describe the value returned  If it is a LIST, use 
 #' @author Devin S. Johnson
+#' @import sunFuncs
+#' @export
 #' 
 propDaylight <-
 function(xy, dateTime.start, dateTime.end, delta, solarDep=12){

@@ -3,6 +3,8 @@
 export(countPointsInGrid)
 export(getPixTemplate)
 export(netDistance)
+export(propDaylight)
 export(pwBearing)
 export(pwDistance)
 export(pwSpeed)
+import(sunFuncs)

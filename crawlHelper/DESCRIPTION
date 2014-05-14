@@ -1,9 +1,11 @@
 Package: crawlHelper
 Type: Package
 Title: Miscellaneous functions for animal movement modeling with crawl
-Version: 1.1 
+Version: 1.1
 Date: 2014/05/14
-Author: Devin S. Johnson  
+Imports:
+    sunFuncs
+Author: Devin S. Johnson
 Maintainer: Devin S. Johnson <devin.johnson@noaa.gov>
 Description: Miscellaneous functions for animal movement modeling with crawl
 License: Unlimited
