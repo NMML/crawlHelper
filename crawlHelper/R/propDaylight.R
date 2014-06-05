@@ -26,8 +26,8 @@ function(xy, dateTime.start, dateTime.end, delta, solarDep=12){
 	dusk1.end <- next.crepuscule(xy, dateTime.end, solarDep=solarDep, direction="dusk")
 	dawn1.start <- next.crepuscule(xy, dateTime.start, solarDep=solarDep, direction="dawn")
 	dawn0.end <- prev.crepuscule(xy, dateTime.end, solarDep=solarDep, direction="dawn")
-	day.start <- solarpos(xy, dateTime.start)[,2] > -solarDep
-	day.end <- solarpos(xy, dateTime.end)[,2] > -solarDep	
+	day.start <- sunFuncs:::solarpos(xy, dateTime.start)[,2] > -solarDep
+	day.end <- sunFuncs:::solarpos(xy, dateTime.end)[,2] > -solarDep	
 	c1 <- ifelse(day.start & day.end & dusk1.start==dusk1.end, as.numeric(dateTime.end)-as.numeric(dateTime.start), 0)
 	c2 <- ifelse(day.start & (!day.end) & dusk1.start==dusk0.end, as.numeric(dusk1.start)-as.numeric(dateTime.start), 0)
 	c3 <- ifelse(day.start & day.end & dawn1.start==dawn0.end, (as.numeric(dusk1.start)-as.numeric(dateTime.start)) + 
