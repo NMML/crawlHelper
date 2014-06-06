@@ -1,3 +1,4 @@
+#' @import maptools
 getIndivPropDaylight = function(x, y, dt.start, dt.end, solarDep){
   times=seq(dt.start, dt.end, 60)
   sum(maptools::solarpos(cbind(rep(x, length(times)),rep(y,length(times))), times)[,2]>-solarDep)/length(times)
@@ -17,7 +18,6 @@ getIndivPropDaylight = function(x, y, dt.start, dt.end, solarDep){
 #' @param solarDep  ~~Describe \code{solarDep} here~~
 #' @return  ~Describe the value returned  If it is a LIST, use 
 #' @author Devin S. Johnson
-#' @import maptools
 #' @export
 #' 
 propDaylight <-
