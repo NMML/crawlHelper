@@ -6,8 +6,8 @@
 #' \tabular{ll}{ 
 #' Package: \tab crawlHelper\cr 
 #' Type: \tab Package\cr 
-#' Version: \tab 1.1\cr 
-#' Date: \tab 2014-05-15\cr 
+#' Version: \tab 1.2\cr 
+#' Date: \tab 2014-06-06\cr 
 #' License: \tab Unlimited\cr 
 #' LazyLoad: \tab yes\cr 
 #' }
