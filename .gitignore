@@ -4,3 +4,4 @@
 *.Rproj
 *.tar.gz
 *.zip
+/.Rhistory
